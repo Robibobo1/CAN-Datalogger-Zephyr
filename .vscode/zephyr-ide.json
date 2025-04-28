@@ -1,0 +1,71 @@
+{
+  "projects": {
+    "blinky": {
+      "rel_path": "blinky",
+      "name": "blinky",
+      "buildConfigs": {
+        "build\\nucleo_l476rg": {
+          "board": "nucleo_l476rg",
+          "relBoardSubDir": "st\\nucleo_l476rg",
+          "name": "build\\nucleo_l476rg",
+          "westBuildArgs": "",
+          "westBuildCMakeArgs": " -DCONFIG_DEBUG_OPTIMIZATIONS=y -DCONFIG_DEBUG_THREAD_INFO=y ",
+          "confFiles": {
+            "config": [],
+            "extraConfig": [],
+            "overlay": [],
+            "extraOverlay": []
+          },
+          "runnerConfigs": {}
+        }
+      },
+      "confFiles": {
+        "config": [],
+        "extraConfig": [],
+        "overlay": [],
+        "extraOverlay": []
+      }
+    },
+    "datalogger": {
+      "rel_path": "datalogger",
+      "name": "datalogger",
+      "buildConfigs": {
+        "build\\nucleo_l476rg": {
+          "board": "nucleo_l476rg",
+          "relBoardSubDir": "st\\nucleo_l476rg",
+          "name": "build\\nucleo_l476rg",
+          "westBuildArgs": "",
+          "westBuildCMakeArgs": " -DCONFIG_DEBUG_OPTIMIZATIONS=y -DCONFIG_DEBUG_THREAD_INFO=y ",
+          "confFiles": {
+            "config": [],
+            "extraConfig": [],
+            "overlay": [],
+            "extraOverlay": []
+          },
+          "runnerConfigs": {}
+        },
+        "build\\bms_master": {
+          "relBoardDir": "..\\..\\..\\VRT\\BMS_Software_24-25\\boards",
+          "board": "bms_master",
+          "relBoardSubDir": "VRT\\bms_master",
+          "name": "build\\bms_master",
+          "westBuildArgs": "",
+          "westBuildCMakeArgs": " -DCONFIG_DEBUG_OPTIMIZATIONS=y -DCONFIG_DEBUG_THREAD_INFO=y ",
+          "confFiles": {
+            "config": [],
+            "extraConfig": [],
+            "overlay": [],
+            "extraOverlay": []
+          },
+          "runnerConfigs": {}
+        }
+      },
+      "confFiles": {
+        "config": [],
+        "extraConfig": [],
+        "overlay": [],
+        "extraOverlay": []
+      }
+    }
+  }
+}
